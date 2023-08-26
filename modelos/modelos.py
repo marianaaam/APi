@@ -57,4 +57,10 @@ class CancionSchema(SQLAlchemySchema):
         include_relationships = True
         load_instance = True
 
+class UsuarioSchema(SQLAlchemySchema):
+    class Meta:
+        model = Usuario
+        include_relationships = True
+        load_instance = True
+
 
